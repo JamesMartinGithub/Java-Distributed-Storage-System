@@ -1,0 +1,55 @@
+Connection established to port 4300
+Message sent to port 4300: STORE testfile1.txt 16
+Store operation started for file testfile1.txt
+Message received from port 4300: STORE_TO 4301 4303
+Controller replied to store testfile1.txt in these Dstores: 4301 4303 
+Connection established to port 4301
+Message sent to port 4301: STORE testfile1.txt 16
+Storing file testfile1.txt to Dstore 4301
+Message received from port 4301: ACK
+ACK received from Dstore 4301 to store file testfile1.txt
+Store of file testfile1.txt to Dstore 4301 successfully completed
+Connection established to port 4303
+Message sent to port 4303: STORE testfile1.txt 16
+Storing file testfile1.txt to Dstore 4303
+Message received from port 4303: ACK
+ACK received from Dstore 4303 to store file testfile1.txt
+Store of file testfile1.txt to Dstore 4303 successfully completed
+Message received from port 4300: STORE_COMPLETE
+Store operation for file testfile1.txt completed
+Message sent to port 4300: STORE testfile2.txt 11
+Store operation started for file testfile2.txt
+Message received from port 4300: STORE_TO 4302 4301
+Controller replied to store testfile2.txt in these Dstores: 4302 4301 
+Connection established to port 4302
+Message sent to port 4302: STORE testfile2.txt 11
+Storing file testfile2.txt to Dstore 4302
+Message received from port 4302: ACK
+ACK received from Dstore 4302 to store file testfile2.txt
+Store of file testfile2.txt to Dstore 4302 successfully completed
+Connection established to port 4301
+Message sent to port 4301: STORE testfile2.txt 11
+Storing file testfile2.txt to Dstore 4301
+Message received from port 4301: ACK
+ACK received from Dstore 4301 to store file testfile2.txt
+Store of file testfile2.txt to Dstore 4301 successfully completed
+Message received from port 4300: STORE_COMPLETE
+Store operation for file testfile2.txt completed
+Message sent to port 4300: STORE testfile3.txt 11
+Store operation started for file testfile3.txt
+Message received from port 4300: STORE_TO 4303 4302
+Controller replied to store testfile3.txt in these Dstores: 4303 4302 
+Connection established to port 4303
+Message sent to port 4303: STORE testfile3.txt 11
+Storing file testfile3.txt to Dstore 4303
+Message received from port 4303: ACK
+ACK received from Dstore 4303 to store file testfile3.txt
+Store of file testfile3.txt to Dstore 4303 successfully completed
+Connection established to port 4302
+Message sent to port 4302: STORE testfile3.txt 11
+Storing file testfile3.txt to Dstore 4302
+Message received from port 4302: ACK
+ACK received from Dstore 4302 to store file testfile3.txt
+Store of file testfile3.txt to Dstore 4302 successfully completed
+Message received from port 4300: STORE_COMPLETE
+Store operation for file testfile3.txt completed
