@@ -1,0 +1,13 @@
+Commands used to run each part, with example argument values:
+
+CONTROLLER:
+javac Controller.java
+java Controller 4300 2 1000 25
+
+DSTORE:
+javac Dstore.java
+java Dstore 4301 4300 1000 dstore
+
+CLIENT:
+javac -cp client.jar ClientMain.java
+java -cp client.jar;. ClientMain 4300 1000
