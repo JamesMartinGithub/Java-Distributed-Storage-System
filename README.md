@@ -1,5 +1,5 @@
 # Java-Distributed-Storage-System
-A distributed storage system written in java consisting of a client, controller, and dstores
+(2023) A distributed storage system written in java consisting of a client, controller, and dstores
 
 The client communicates with the controller, which then directs the client to a chosen dstore for file uploading/retrieval.
 The controller stores an index of files stored - for each file this includes:
